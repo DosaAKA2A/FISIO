@@ -98,13 +98,6 @@ header.nav.solid{background:rgba(247,250,249,.92);backdrop-filter:blur(12px);-we
 .hero-inner>*:nth-child(5){animation-delay:.44s}
 @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.hero-inner>*{opacity:1;animation:none}}
-/* ---------- Cinta de palabras (emoción bajo el hero) ---------- */
-.word-strip{background:#F6F1E6;overflow:hidden;padding:2.6rem 0;border-bottom:1px solid #EAE2D0}
-.word-track{display:flex;gap:4.5rem;white-space:nowrap;width:max-content;animation:strip 46s linear infinite;font-family:var(--font-display);font-weight:500;font-size:clamp(1.9rem,4.6vw,3.1rem);letter-spacing:.06em;color:#4A5D61}
-.word-track span{display:inline-flex;align-items:center;gap:4.5rem}
-.word-track svg{width:.55em;height:.55em;color:#C9AE5F;flex:none}
-@keyframes strip{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@media (prefers-reduced-motion:reduce){.word-track{animation:none}}
 /* placeholder de imagen */
 .ph{position:relative;border-radius:var(--radius);background:
   repeating-linear-gradient(45deg,#EDF3F3 0 14px,#E2EBEB 14px 28px);
@@ -309,9 +302,6 @@ footer{background:var(--ink);color:#B9C9CB;padding:44px 0;margin-top:88px;font-s
     <p class="hero-note"><span class="stars" aria-label="5 estrellas"><svg><use href="#i-star"/></svg></span> 5,0 en Google · 317 reseñas</p>
   </div>
 </section>
-<div class="word-strip" aria-hidden="true">
-  <div class="word-track"><span>ALIVIA EL DOLOR<svg aria-hidden="true"><use href="#logoFT"/></svg></span><span>RECUPERA MOVILIDAD<svg aria-hidden="true"><use href="#logoFT"/></svg></span><span>SUELTA LA TENSIÓN<svg aria-hidden="true"><use href="#logoFT"/></svg></span><span>VUELVE A MOVERTE<svg aria-hidden="true"><use href="#logoFT"/></svg></span><span>ALIVIA EL DOLOR<svg aria-hidden="true"><use href="#logoFT"/></svg></span><span>RECUPERA MOVILIDAD<svg aria-hidden="true"><use href="#logoFT"/></svg></span><span>SUELTA LA TENSIÓN<svg aria-hidden="true"><use href="#logoFT"/></svg></span><span>VUELVE A MOVERTE<svg aria-hidden="true"><use href="#logoFT"/></svg></span></div>
-</div>
 
 <!-- ================= TERAPIAS ================= -->
 <section class="section" id="terapias">
